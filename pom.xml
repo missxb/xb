@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"“http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"< project xmlns = " http://maven.apache.org/POM/4.0.0"“http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xmlns: xsi = " http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">xsi: schemaLocation = " http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" >
     <modelVersion>4.0.0</modelVersion>< modelVersion> 4.0.0< / modelVersion>
 
-    <!-- 项目基础坐标（可根据你的需求修改，格式必须是 组ID:项目ID:版本） -->
-    <groupId>com.example</groupId>
-    <artifactId>baimoci-project</artifactId>
+    <!-- 项目基础坐标 -->
+    <groupId>com.example</groupId>& lt; groupId> com.example< / groupId>
+    <artifactId>baimoci-project</artifactId>& lt; artifactId> baimoci-project< / artifactId>
     <version>1.0.0</version>   < version> 1.0.0< / version>
 
-    <!-- 可选：项目名称和描述（纯英文，避免格式问题） -->
-    <name>Baimoci Project</name>
-    <description>Jenkins Maven Build Test Project</description>
-</project>   < / project>
+    <!-- 项目信息 -->
+    <name>Baimoci Project</name>< name> Baimoci Project< / name>
+    <description>Jenkins Maven Build Test</description>Jenkins Maven Build Test<；
+</   & lt;project>   < / project>
