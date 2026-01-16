@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project < project xmlns = " http://maven.apache.org/POM/4.0.0"xmlns="http://maven.apache.org/POM/4.0.0"“http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"“http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>< modelVersion> 4.0.0< / modelVersion>
 
-    <!-- 基础配置：groupId/artifactId/version 需根据你的项目修改 -->
-    <groupId>com.missxb</groupId>
-    <artifactId>xb-project</artifactId>
-    <version>1.0.0</version>
+    <!-- 项目基础坐标（可根据你的需求修改，格式必须是 组ID:项目ID:版本） -->
+    <groupId>com.example</groupId>
+    <artifactId>baimoci-project</artifactId>
+    <version>1.0.0</version>   < version> 1.0.0< / version>
 
-    <!-- 可选：添加名称/描述（纯英文，避免中文） -->
-    <name>XB Project</name>
-    <description>Basic Maven Project for Jenkins Build</description>
+    <!-- 可选：项目名称和描述（纯英文，避免格式问题） -->
+    <name>Baimoci Project</name>
+    <description>Jenkins Maven Build Test Project</description>
 </project>   < / project>
