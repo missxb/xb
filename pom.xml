@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>anliven.testmaven</groupId>
+        <artifactId>testmaven</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+
+        <dependencies>
+                <dependency>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+                        <version>4.10</version>
+                </dependency>
+        </dependencies>
+
+</project>[gerrit@mt101 testrepo]$ 
+$
+$ cat src/main/java/anliven/testmaven/HelloMaven.java 
+package anliven.testmaven;
+
+public class HelloMaven {
+        public String sayHello() {
+                return "Hello Maven!";
+        }
+}
+$ 
+$ cat src/test/java/anliven/testmaven/HelloMavenTest.java 
+package anliven.testmaven;
+import org.junit.*;
+import org.junit.Assert.*;
+
+public class HelloMavenTest {
+        @Test
+        public void testMaven() {
+                System.out.println("Run test!");
+                Assert.assertEquals("Hello Maven!", new HelloMaven().sayHello());
+        }
+}
